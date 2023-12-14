@@ -68,18 +68,25 @@ margin-right: 20px;
 
 }
 .htm-button {
-  width: 140px;
-  background-color: #084d00;
+  width: 160px;
+  background-color: #006aac;
   color: white;
   height: 50px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+padding-top: 15px;
 margin-bottom: 20px;
 margin-right: 20px;
 }
-
+.imgWidth{
+  margin-left: 50px;
+  width: 300px;
+  margin-bottom: 30px;
+}
 .form-group select {
   width: 182px;
   padding: 10px;
