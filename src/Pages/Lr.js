@@ -9,7 +9,7 @@ import resix from "./Images/resix.png";
 import Signature from "./Images/signature.png";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-const HtmLr = () => {
+const Lr = () => {
   const [formData, setFormData] = useState({
     truckNumber: "",
     from: "",
@@ -86,7 +86,7 @@ const HtmLr = () => {
     pdf.text(
       135,
       18,
-      "HTM Packers and Movers"
+      "Shiftify Packers and Movers"
     );
     pdf.setFontSize(10);
     pdf.setFont(undefined, "none");
@@ -94,17 +94,17 @@ const HtmLr = () => {
     pdf.text(
       135,
       25,
-      "No. 320,10th cross NGR Layout, Masjid Road,Roopena Agrahara, Bangalore - 560068"
+      "No. 170,6th cross,Balaji Nagar, Bangalore - 560029"
     );
     pdf.text(
       135,
       30,
-      "E-Mail :htmpackersandmovers@gmail.com             Web : www.htmmovers.in"
+      "E-Mail :info@shiftify.in             Web : www.shiftify.in"
     );
     pdf.text(
       135,
       35,
-      "Contact:7204208209,9741242669"
+      "Contact:9845201449"
     );
 
 
@@ -160,7 +160,7 @@ const HtmLr = () => {
     pdf.rect(223, 50, 58, 10);
     const currentDate = new Date().toLocaleDateString();
     pdf.text(174, 56.5,`DATE: ${currentDate}`);
-    pdf.text(106, 56.5,`LR No: HTM${randomnum}`);
+    pdf.text(106, 56.5,`LR No: SPM${randomnum}`);
     pdf.text(224, 56.5,`Truck No: ${formData.truckNumber}`);
    
     pdf.rect(12, 70, 270, 18);
@@ -231,7 +231,7 @@ pdf.rect(12, 157, 100, 50)
     const sanitizedName = formData.consignorName.replace(/[^a-zA-Z0-9]/g, "");
     const sanitizedMobile = formData.mobile.replace(/[^0-9]/g, "");
 
-    const pdfName = `Htm_LR_${sanitizedName}.pdf`;
+    const pdfName = `Shiftify_LR_${sanitizedName}.pdf`;
 
     pdf.save(pdfName);
   };
@@ -430,4 +430,4 @@ pdf.rect(12, 157, 100, 50)
   );
 };
 
-export default HtmLr;
+export default Lr;
