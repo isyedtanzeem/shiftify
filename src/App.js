@@ -14,7 +14,7 @@ class App extends Component {
         <Router>
        
             <Routes basename="/Quotationmaker">
-              <Route path="/Quotationmaker" element={<Menu />} />
+              <Route path="/Shiftify" element={<Menu />} />
               <Route path="/" element={<Menu />} />
               <Route exact path="/HtmQoutation" element={<HtmQuotation />} />
               <Route exact path="/HtmInvoice" element={<HtmInvoice />} />
