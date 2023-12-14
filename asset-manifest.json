@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/shiftify/static/css/main.c2a553c5.css",
+    "main.js": "/shiftify/static/js/main.b556754f.js",
+    "static/js/498.36197475.chunk.js": "/shiftify/static/js/498.36197475.chunk.js",
+    "static/js/703.fa13ca8f.chunk.js": "/shiftify/static/js/703.fa13ca8f.chunk.js",
+    "static/js/379.ce0ee423.chunk.js": "/shiftify/static/js/379.ce0ee423.chunk.js",
+    "static/js/787.92dc78b0.chunk.js": "/shiftify/static/js/787.92dc78b0.chunk.js",
+    "static/media/resix.png": "/shiftify/static/media/resix.dc29e2b746309d6678a7.png",
+    "static/media/htmResix.png": "/shiftify/static/media/htmResix.49f3b3e98fd4c7b07c4a.png",
+    "static/media/ShiftifyHead.png": "/shiftify/static/media/ShiftifyHead.000b950e911e87f9fa31.png",
+    "static/media/Logo.png": "/shiftify/static/media/Logo.0030e5a4cbcea558038e.png",
+    "static/media/signature.png": "/shiftify/static/media/signature.537176f52697a84bc96e.png",
+    "static/media/seal.png": "/shiftify/static/media/seal.0e8117369960c7410252.png",
+    "static/media/ShiftifyWaterMark.png": "/shiftify/static/media/ShiftifyWaterMark.161e9a93165ee564b34d.png",
+    "index.html": "/shiftify/index.html",
+    "main.c2a553c5.css.map": "/shiftify/static/css/main.c2a553c5.css.map",
+    "main.b556754f.js.map": "/shiftify/static/js/main.b556754f.js.map",
+    "498.36197475.chunk.js.map": "/shiftify/static/js/498.36197475.chunk.js.map",
+    "703.fa13ca8f.chunk.js.map": "/shiftify/static/js/703.fa13ca8f.chunk.js.map",
+    "379.ce0ee423.chunk.js.map": "/shiftify/static/js/379.ce0ee423.chunk.js.map",
+    "787.92dc78b0.chunk.js.map": "/shiftify/static/js/787.92dc78b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2a553c5.css",
+    "static/js/main.b556754f.js"
+  ]
+}
