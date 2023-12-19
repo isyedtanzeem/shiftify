@@ -11,10 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className="margin-top">
+          <Menu />
         <Router>
        
             <Routes>
-            <Menu />
+          
             <Route path="/" element={<Menu />} />
           
               <Route path="/Shiftify" element={<Menu />} />
