@@ -13,15 +13,13 @@ class App extends Component {
       <div className="margin-top">
         <Router>
        
-            <Routes basename="/">
+            <Routes>
+            <Route path="/" element={<Menu />} />
               <Route path="/Shiftify" element={<Menu />} />
-            
-              <Route path="/" element={<Menu />} />
               <Route exact path="/Qoutation" element={<Quotation />} />
               <Route exact path="/Invoice" element={<Invoice />} />
               <Route exact path="/Lr" element={<Lr />} />
             </Routes>
-      
         </Router>
       </div>
     );
