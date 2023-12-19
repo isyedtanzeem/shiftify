@@ -13,7 +13,7 @@ class App extends Component {
       <div className="margin-top">
         <Router>
        
-            <Routes basename="/Quotationmaker">
+            <Routes basename="/">
               <Route path="/Shiftify" element={<Menu />} />
             
               <Route path="/" element={<Menu />} />
