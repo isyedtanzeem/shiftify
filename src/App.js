@@ -14,8 +14,9 @@ class App extends Component {
         <Router>
        
             <Routes>
+            <Menu />
             <Route path="/" element={<Menu />} />
-            <Route path="https://shiftify.netlify.app/" element={<Menu />} />
+          
               <Route path="/Shiftify" element={<Menu />} />
               <Route exact path="/Qoutation" element={<Quotation />} />
               <Route exact path="/Invoice" element={<Invoice />} />
