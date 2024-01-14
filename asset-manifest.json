@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shiftify/static/css/main.fe4c64d0.css",
-    "main.js": "/shiftify/static/js/main.69c7f163.js",
+    "main.js": "/shiftify/static/js/main.d2a37214.js",
     "static/js/498.36197475.chunk.js": "/shiftify/static/js/498.36197475.chunk.js",
     "static/js/703.fa13ca8f.chunk.js": "/shiftify/static/js/703.fa13ca8f.chunk.js",
     "static/js/379.ce0ee423.chunk.js": "/shiftify/static/js/379.ce0ee423.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/ShiftifyWaterMark.png": "/shiftify/static/media/ShiftifyWaterMark.161e9a93165ee564b34d.png",
     "index.html": "/shiftify/index.html",
     "main.fe4c64d0.css.map": "/shiftify/static/css/main.fe4c64d0.css.map",
-    "main.69c7f163.js.map": "/shiftify/static/js/main.69c7f163.js.map",
+    "main.d2a37214.js.map": "/shiftify/static/js/main.d2a37214.js.map",
     "498.36197475.chunk.js.map": "/shiftify/static/js/498.36197475.chunk.js.map",
     "703.fa13ca8f.chunk.js.map": "/shiftify/static/js/703.fa13ca8f.chunk.js.map",
     "379.ce0ee423.chunk.js.map": "/shiftify/static/js/379.ce0ee423.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.fe4c64d0.css",
-    "static/js/main.69c7f163.js"
+    "static/js/main.d2a37214.js"
   ]
 }
