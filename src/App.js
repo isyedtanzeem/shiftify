@@ -11,10 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="margin-top">
-          <Menu />
         <Router>
        
-            <Routes>
+            <Routes basename="/shiftify">
           
             <Route path="/" element={<Menu />} />
           
@@ -24,6 +23,7 @@ class App extends Component {
               <Route exact path="/Lr" element={<Lr />} />
             </Routes>
         </Router>
+        
       </div>
     );
   }
